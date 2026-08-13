@@ -9,4 +9,9 @@ public class Marketing {
     public String setorMarketing() {
         return "Marketing";
     }
+
+    @RequestMapping("/financeiro")
+    public String setorFinanceiro() {
+        return "Financeiro";
+    }
 }
